@@ -4,19 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert Topic</title>
+<title>Delete Topic</title>
 </head>
 <body>
-
-	<h2>Insert Topic</h2>
-	<form method="post">
-		<pre>
-			ID : <input type="text" name="id"><br><br>
-			Name: <input type="text" name="name"><br><br>
-			<input type="submit" value="Submit">
-		</pre>
-	</form>
-	<p>${success}</p>
 	
+	${success}
+
 </body>
 </html>
