@@ -22,7 +22,7 @@ public class TopicController {
 	}
 	
 	@RequestMapping(value="/instopic",method=RequestMethod.POST)
-	public String postInsertTopic(ModelMap model, @ModelAttribute("topic") Topic topic){
+	public String postInsertTopic(ModelMap model, @ModelAttribute Topic topic){
 		System.out.println(topic);
 		topicService.insertTopic(topic);
 		model.addAttribute("success", "Inserted "+topic);
