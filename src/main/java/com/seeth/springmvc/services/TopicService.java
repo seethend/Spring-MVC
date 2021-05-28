@@ -16,7 +16,9 @@ public class TopicService {
 		allTopics.add(new Topic("2", "Struts"));
 		allTopics.add(new Topic("3", "Django"));
 		allTopics.add(new Topic("4", "Node Js"));
-		allTopics.add(new Topic("5", "Vue JS"));
+		allTopics.add(new Topic("5", "Angular JS"));
+		allTopics.add(new Topic("6", "Vue JS"));
+		// allTopics.add(new Topic("7", "React JS"));
 	}
 	
 
